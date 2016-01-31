@@ -6,6 +6,6 @@ from weather import Weather
 
 w = Weather()
 
-if True:
+while True:
     publish(w.basics(),"stormfly")
-    sleep(0)
+    sleep(600)
