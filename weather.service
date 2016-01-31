@@ -1,0 +1,15 @@
+[Unit]
+Description=Weather  
+After=network.target
+
+[Service]
+Type=simple
+#User=
+#Group=
+#WorkingDirectory=
+#ExecStart=
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
