@@ -9,3 +9,4 @@ w = Weather()
 while True:
     publish(w.basics(),"stormfly")
     sleep(600)
+    w.refresh()
